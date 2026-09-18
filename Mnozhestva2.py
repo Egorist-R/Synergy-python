@@ -1,0 +1,6 @@
+a = input().split()
+b = set(a)
+s = input().split()
+d = set(s)
+common = b.intersection(d)
+print(len(common))
